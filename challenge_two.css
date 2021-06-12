@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+* {
+    box-sizing  : border-box;
+    border-width: 0;
+    border-style: solid;
+    font-family : 'Roboto', Arial, sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    margin          : 0;
+}
+
+/* Pricing */
+.challenge-two .pricing-intro {
+    background: linear-gradient(to right, #1a2c48 0%, #292f5c 100%);
+    color     : #ffffff;
+    display   : flex;
+    height    : 500px;
+}
+
+.pricing-intro .title {
+    margin-top   : 7rem;
+    margin-bottom: 10.8rem;
+    text-align   : center;
+    width        : 100%;
+}
+
+.pricing-intro h2 {
+    font-size  : 4rem;
+    font-weight: 300;
+    margin     : 0 0 1.45rem;
+}
+
+.pricing-intro h6 {
+    font-size  : 1.25rem;
+    font-weight: 100;
+    max-width  : 33rem;
+    margin     : 1.25rem auto 0;
+}
+
+.pricing-plan {
+    margin-top: -8.25rem;
+}
+
+.pricing-plan .row,
+.pricing-plan .plan-prices {
+    display        : flex;
+    justify-content: center;
+}
+
+.pricing-plan .row {
+    align-items: center;
+    flex-wrap  : wrap;
+    margin     : 0 auto;
+    max-width  : 90%;
+}
+
+.card-wrapper {
+    padding: 1.2rem;
+    width  : 30.3%;
+}
+
+.card-plan {
+    background: #ffffff;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    color     : #000000;
+
+    transition        : all .5s ease-in-out;
+    -moz-transition   : all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition     : all .5s ease-in-out;
+    -ms-transition    : all .5s ease-in-out;
+}
+
+.card-wrapper:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.card-wrapper:focus-within .card-plan {
+    background-color: #a4bbdb;
+}
+.card-wrapper:focus-within .card-plan,
+.card-wrapper:focus-within .card-plan .currency-symbol,
+.card-wrapper:focus-within .card-plan .currency-period {
+    color: #ffffff;
+}
+.card-wrapper:focus-within .card-plan hr {
+    background-color: rgba(255,255,255,0.5);
+}
+.card-wrapper:focus-within .card-plan .action button {
+    background-color: #ffffff;
+    color: #00b9ff;
+}
+
+
+.plan-title {
+    background    : #403f3f;
+    color         : #ffffff;
+    font-size     : 1rem;
+    padding       : 1rem 2rem;
+    text-transform: uppercase;
+}
+
+.plan-details {
+    padding: 2rem;
+}
+
+.currency-symbol,
+.currency-value h6 {
+    color: #a1a1a1;
+}
+
+.currency-symbol {
+    font-size  : 1.8rem;
+    font-weight: 500;
+    line-height: 1.3;
+    margin     : 0;
+}
+
+.currency-value {
+    display    : flex;
+    align-items: flex-end;
+}
+
+.currency-value * {
+    font-weight: 300;
+}
+
+.currency-value p,
+.currency-value h6 {
+    margin: 0;
+}
+
+.currency-value p {
+    font-size  : 5rem;
+    line-height: 1;
+}
+
+.currency-value h6 {
+    font-size  : 1.25rem;
+    line-height: 1.75rem;
+}
+
+hr {
+    height          : 1px;
+    flex-shrink     : 0;
+    margin          : 2rem 0;
+    background-color: rgba(0, 0, 0, 0.12);
+}
+
+.features {
+    display       : flex;
+    flex-direction: column;
+}
+
+.features h6 {
+    font-size  : 1rem;
+    font-weight: 300;
+    line-height: 1.75;
+    margin     : 0;
+}
+
+.features h6 span {
+    margin     : 0 0.4rem;
+    font-weight: 500;
+}
+
+.action {
+    display        : flex;
+    justify-content: center;
+    padding        : 0 0 2.75rem;
+}
+
+.action button {
+    color             : #ffffff;
+    background-color  : #00b9ff;
+    border-radius     : 4px;
+    height            : 2rem;
+    width             : 8.8rem;
+    -webkit-appearance: button;
+}
+
+.action button:hover {
+    cursor          : pointer;
+    background-color: #11779c;
+}
+
+.action button span {
+    font-weight   : 300;
+    text-transform: uppercase;
+}
+
+.pricing-faq {
+    text-align: center;
+}
+
+.pricing-faq h5 {
+    margin     : 4.5rem auto 4rem;
+    font-size  : 2rem;
+    font-weight: 300;
+}
+
+.faq-content {
+    display   : flex;
+    flex-wrap : wrap;
+    margin    : 0 auto;
+    max-width : 85%;
+    text-align: left;
+}
+
+.faq-content>div {
+    padding: 2rem;
+    width  : 49.5%;
+}
+
+.faq-question,
+.faq-answer {
+    line-height: 1.5;
+}
+
+.faq-question {
+    font-size  : 1rem;
+    font-weight: 300;
+    margin     : 0 0 0.5rem;
+}
+
+.faq-answer {
+    font-size  : 1rem;
+    font-weight: 100;
+    margin     : 0;
+}
+
+/* end of Pricing */

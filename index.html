@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Challenge 2</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="challenge_two.css" />    
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">
+                You are using an <strong>outdated</strong> browser. Please
+                <a href="#">upgrade your browser</a> to improve your experience.
+            </p>
+        <![endif]-->
+    <div class="container challenge-two" id="challengeTwo">
+        <div class="pricing-intro">
+            <div class="title">
+                <h2>Simple Pricing!</h2>
+                <h6>The most advanced customer support tools with a simple and affordable pricing. And you can always
+                    try
+                    for 30 days, free!</h6>
+            </div>
+        </div>
+        <div class="pricing-plan">
+            <div class="row" tabindex="0">
+                <div class="card-wrapper" tabindex="1">
+                    <div class="card-plan one">
+                        <div class="plan-title">
+                            Basic
+                        </div>
+                        <div class="plan-details">
+                            <div class="plan-prices">
+                                <h5 class="currency-symbol">$</h5>
+                                <div class="currency-value">
+                                    <p>4</p>
+                                    <h6 class="currency-period">/ month</h6>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="features">
+                                <h6><span>10</span>Projects</h6>
+                                <h6><span>10</span>Pages</h6>
+                                <h6><span>100</span>Mb Disk Space</h6>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="buy-now"><span>Buy Now</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-wrapper" tabindex="2">
+                    <div class="card-plan one">
+                        <div class="plan-title">
+                            Standard
+                        </div>
+                        <div class="plan-details">
+                            <div class="plan-prices">
+                                <h5 class="currency-symbol">$</h5>
+                                <div class="currency-value">
+                                    <p>8</p>
+                                    <h6 class="currency-period">/ month</h6>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="features">
+                                <h6><span>20</span>Projects</h6>
+                                <h6><span>20</span>Pages</h6>
+                                <h6><span>200</span>Mb Disk Space</h6>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="buy-now"><span>Buy Now</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-wrapper" tabindex="3">
+                    <div class="card-plan three">
+                        <div class="plan-title">
+                            Advanced
+                        </div>
+                        <div class="plan-details">
+                            <div class="plan-prices">
+                                <h5 class="currency-symbol">$</h5>
+                                <div class="currency-value">
+                                    <p>12</p>
+                                    <h6 class="currency-period">/ month</h6>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="features">
+                                <h6><span>40</span>Projects</h6>
+                                <h6><span>40</span>Pages</h6>
+                                <h6><span>500</span>Mb Disk Space</h6>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="buy-now"><span>Buy Now</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="pricing-faq">
+                    <h5>Frequently Asked Questions</h5>
+                    <div class="faq-content">
+                        <div class="faq-one">
+                            <p class="faq-question">How does free trial work?</p>
+                            <p class="faq-answer">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a diam nec augue
+                                tincidunt accumsan. In dignissim laoreet ipsum eu interdum.</p>
+                        </div>
+                        <div class="faq-two">
+                            <p class="faq-question">How does free trial work?</p>
+                            <p class="faq-answer">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a diam nec augue
+                                tincidunt accumsan. In dignissim laoreet ipsum eu interdum.</p>
+                        </div>
+                        <div class="faq-three">
+                            <p class="faq-question">How does free trial work?</p>
+                            <p class="faq-answer">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a diam nec augue
+                                tincidunt accumsan. In dignissim laoreet ipsum eu interdum.</p>
+                        </div>
+                        <div class="faq-four">
+                            <p class="faq-question">How does free trial work?</p>
+                            <p class="faq-answer">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a diam nec augue
+                                tincidunt accumsan. In dignissim laoreet ipsum eu interdum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script async defer>
+
+        var buynow = document.getElementsByClassName(
+            "buy-now", "button", document.getElementById("challengeTwo")
+        );
+
+        for (var i = 0; i < buynow.length; i++) {
+            buynow[i].onclick = function () {
+                alert("Success!");
+            }
+        };
+    </script>
+</body>
+
+</html>
